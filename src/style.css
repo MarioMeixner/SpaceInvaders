@@ -1,0 +1,101 @@
+body {
+    margin: 0 auto;
+    background: #131313;
+    min-height: 100%;
+}
+
+.main-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.game-wrapper {
+    width: 960px;
+    float: left;
+    padding-left: 150px;
+}
+
+.game-info {
+    margin: 25px auto;
+}
+
+.game-info p {
+    font-size: 28px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+}
+
+.box-inline {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.box-inline p {
+    overflow: hidden;
+    display: inline;
+    color: whitesmoke;
+}
+
+#status {
+    margin: 0;
+    float: right;
+    position: relative;
+    right: 200px;
+}
+
+#gameScreen {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 1%;
+}
+
+.game-name {
+    height: 100%;
+    width: 80px;
+    background: #000000;
+}
+
+.game-name-l {
+    border-right: 2px solid black;
+    float: left;
+    top: 100px;
+}
+
+.game-name-r {
+    border-left: 2px solid black;
+    float: right;
+}
+
+.game-name h1 {
+    font-family: 'Monda', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    letter-spacing: 30px;
+    position: fixed;
+    color: white;
+}
+
+.game-name-l h1 {
+    top: 250px;
+    left: -205px;
+}
+
+.game-name-r h1 {
+    margin: 0;
+    padding: 0;
+    top: 300px;
+    right: -320px;
+}
+
+#leftH1 {
+    transform: rotate(90deg);
+}
+
+#rightH1 {
+    transform: rotate(270deg);
+    letter-spacing: 20px;
+}

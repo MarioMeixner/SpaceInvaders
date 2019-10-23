@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../img/enemy.png">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monda:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Space Invaders</title>
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="game-name-l game-name">
+            <h1 id="leftH1">SPACE</h1>
+        </div>
+        <div class="game-wrapper">
+            <div class="game-info">
+                <div class="box-inline">
+                    <p class="score-info">Score: </p>
+                    <p id="score"></p>
+                </div>
+                <div class="box-inline" id="status"></div>
+            </div>
+            <div class="game-screen">
+                <canvas id="gameScreen" width="800" height="600"></canvas>
+            </div>
+        </div>
+        <div class="game-name-r game-name">
+            <h1 id="rightH1">INVADERS</h1>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
